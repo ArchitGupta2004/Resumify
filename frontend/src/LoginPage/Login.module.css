@@ -1,0 +1,296 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* MAIN GRID */
+.signupContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  background: #ffffff;
+}
+
+/* LEFT PANEL */
+.leftPanel {
+  background: linear-gradient(135deg, #1e90ff, #4a9bff);
+  padding: 60px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftPanel h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.leftPanel p {
+  margin-bottom: 20px;
+}
+
+.features li {
+  list-style: none;
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+/* TESTIMONIAL BOX */
+.testimonial {
+  margin-top: 25px;
+  background: rgba(255, 254, 254, 0.13);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* USER INFO BLOCK */
+.userInfo {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* AVATAR */
+.avatarCircle {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  color: #1e90ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* RIGHT PANEL */
+.rightPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* WHITE CARD */
+.authCard {
+  width: 420px;
+  background: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.authCard h1 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* INPUTS */
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.twoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* CHECKBOX */
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 15px 0;
+}
+
+.checkboxRow input {
+  width: 18px;
+  height: 18px;
+}
+
+.checkboxText {
+  font-size: 14px;
+  color: #444;
+}
+
+.checkboxText a {
+  color: #1e6ef3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.checkboxText a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTONS */
+.primaryBtn {
+  width: 100%;
+  padding: 12px;
+  background: #1e6ef3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.divider {
+  text-align: center;
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+/* SOCIAL BUTTONS */
+.socialRow {
+  display: flex;
+  gap: 10px;
+}
+
+.socialBtn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.socialBtn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+   border-bottom: 4px solid transparent; 
+  border-image: linear-gradient(to right, #cbcccd, #ececed) 1;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e6ef3;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu li {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  transition: 0.2s;
+}
+
+.menu li:hover {
+  color: #1e6ef3;
+}
+.logoImg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
+/* ---------------------
+     RESPONSIVE DESIGN
+---------------------- */
+
+/* 📱 MOBILE (≤768px) */
+@media (max-width: 768px) {
+  .signupContainer {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .leftPanel {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .testimonial {
+    margin: 20px auto;
+  }
+
+  .rightPanel {
+    padding: 10px;
+  }
+
+  .authCard {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .menu {
+    display: none; /* hide navbar items */
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+}
+
+/* 📱 SMALL MOBILE (≤500px) */
+@media (max-width: 500px) {
+  .leftPanel {
+    padding: 20px;
+  }
+
+  .authCard {
+    padding: 25px;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  .primaryBtn,
+  .socialBtn {
+    padding: 10px;
+  }
+}

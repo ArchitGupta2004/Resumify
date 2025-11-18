@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.parent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 2.5em;
+}
+
+.c1 {
+    display: flex;
+    align-items: center;
+}
+
+.i1 {
+    margin-left: 1em;
+    height: 2em;
+}
+
+.h1 {
+    margin-left: 0.5em;
+    font-size: 26px;
+    font-weight: 700;
+    color: #007bff;
+}
+
+/* ---------- BUTTONS ---------- */
+.b1, .b2 {
+    padding: 0.5em 1em;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.b1 {
+    background-color: white;
+    border: 2px solid #007bff;
+}
+
+.b1:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.b2 {
+    margin-left: 1em;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    box-shadow: 0px 3px 10px rgba(0, 123, 255, 0.3);
+}
+
+.b2:hover {
+    background-color: #005fcc;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.b2:active, .b1:active {
+    transform: scale(0.97);
+}
+
+/* ---------- HERO SECTION ---------- */
+.parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg, #1e90ff 10%, #4cc3ff 90%);
+    color: white;
+    height: 26em;
+    justify-content: center;
+}
+
+.d1 {
+    margin-top: 1em;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 0.6em;
+}
+
+.d2 {
+    color: white;
+    margin-top: 1em;
+    font-size: 19px;
+    margin-left: 1em;
+}
+
+.d3 {
+    color: white;
+    font-size: 19px;
+}
+
+.d4 {
+    margin-top: 2em;
+}
+
+.b3 {
+    width: 15em;
+    height: 3em;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgba(28, 158, 228, 0.874);
+    background-color: white;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.b3:hover {
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.b3:active {
+    transform: scale(0.97);
+}
+
+.d5 {
+    margin-top: 2em;
+    color: white;
+}
+
+/* ---------- TEMPLATE SECTION ---------- */
+.parent3 {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+}
+
+.h4 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+.parent4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 3em 0;
+}
+
+.dd1, .dd2, .dd3, .dd4 {
+    background-color: #fff;
+    height: 13em;
+    width: 15em;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dd1:hover, .dd2:hover, .dd3:hover, .dd4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.dd1:active, .dd2:active, .dd3:active, .dd4:active {
+    transform: scale(0.97);
+}
+
+/* ---------- IMAGES ---------- */
+.i2, .i3, .i4, .i5 {
+    width: 13em;
+    margin: 0 2em 2em 2em;
+}
+
+.i4 {
+    width: 15em;
+    margin-bottom: 3em;
+}
+
+.i5 {
+    width: 14em;
+    margin-bottom: 3em;
+}
+
+/* ---------- TEXTS ---------- */
+.h7, .h8, .h9, .h10 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 7em;
+}
+
+.h10 {
+    margin-right: 8em;
+}
+
+.p7 {
+    font-size: 13px;
+    margin-right: 1em;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    display: flex;
+    text-align: center;
+    padding: 1.5em;
+    background-color: #1d293a;
+    color: #fdf9f9;
+    font-size: 14px;
+    justify-content: center;
+}
