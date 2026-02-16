@@ -120,9 +120,7 @@ function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        © 2025 Resumify | All rights reserved.
-      </footer>
+    
     </>
   );
 }
