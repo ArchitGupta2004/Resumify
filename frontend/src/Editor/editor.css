@@ -1,0 +1,50 @@
+.editor-page{
+  display:flex;
+  height:100vh;
+}
+
+.editor-form{
+  width:35%;
+  padding:25px;
+  background:#f3f5f9;
+  overflow:auto;
+}
+
+.editor-form input,
+.editor-form textarea{
+  width:100%;
+  margin:8px 0;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+}
+
+.editor-form textarea{
+  min-height:80px;
+}
+
+.editor-preview{
+  width:65%;
+  background:#e5e7eb;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:20px;
+  overflow:auto;
+}
+.download-btn {
+  margin-top: 18px;
+  padding: 12px 22px;
+  background: #2f5bd3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.download-btn:hover {
+  background: #1d3fa8;
+  transform: translateY(-2px);
+}

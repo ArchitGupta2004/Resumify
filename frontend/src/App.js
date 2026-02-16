@@ -5,6 +5,8 @@ import Home from "./Home/Home.js";
 import Customization from "./Customization/Customize.js";
 import CreateAccountPage from "./CreateAccountPage/Account.js";
 import LoginPage from "./LoginPage/Login.js";
+import TemplatePage from "./TemplatePage/TemplatePage.js";
+import Editor from "./Editor/editor.js";
   
 
 
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/customize" element={<Customization />} />
+        <Route path="/templates" element={<TemplatePage />} />
+        <Route path="/editor" element={<Editor />} />
         
         {/* Sign Up Route */}
         <Route path="/signup" element={<CreateAccountPage />} /> 

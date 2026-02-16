@@ -1,0 +1,53 @@
+.resume.creative {
+  width: 800px;
+  background: #111;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.creative-header {
+  background: black;
+  padding: 25px;
+  text-align: center;
+  border: 3px solid white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.creative-header h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #00e0ff;
+}
+
+.creative-header h2 {
+  margin: 6px 0;
+  font-weight: 400;
+}
+
+.creative-header span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* SECTION */
+.c-section {
+  margin-top: 18px;
+}
+
+.c-section h3 {
+  color: #00e0ff;
+  border-bottom: 2px solid #00e0ff;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+/* IMPORTANT — ENTER NEW LINE SUPPORT */
+.text-block {
+  white-space: pre-line;
+  line-height: 1.6;
+  color: #ddd;
+}

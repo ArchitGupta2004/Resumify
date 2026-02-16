@@ -1,0 +1,56 @@
+.resume.modern {
+  width: 800px;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  background: #2f5bd3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.header span {
+  font-size: 14px;
+}
+
+/* SECTION */
+.section {
+  margin-top: 18px;
+}
+
+.section h3 {
+  border-bottom: 2px solid #2f5bd3;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+  color: #2f5bd3;
+}
+.section p {
+  margin: 0;
+  color: #222;   /* ✔ dark readable */
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+
+/* IMPORTANT: ENTER NEW LINE */
+.text-block {
+  white-space: pre-line;
+  color: #141313;
+  line-height: 1.5;
+}

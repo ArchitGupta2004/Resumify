@@ -1,0 +1,144 @@
+.tp-page {
+  padding: 40px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.tp-title {
+  margin-bottom: 20px;
+}
+
+/* FILTERS */
+.tp-filters {
+  margin-bottom: 30px;
+}
+
+.tp-filter-btn {
+  padding: 8px 16px;
+  margin: 0 6px;
+  border-radius: 8px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+.tp-filter-btn.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* MAIN 2 COLUMN LAYOUT */
+.tp-layout {
+  display: grid;
+  grid-template-columns: auto 260px;
+  justify-content: center;
+  gap: 40px;
+  align-items: start;
+}
+
+/* CARDS GRID */
+.tp-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 320px);
+  gap: 28px;
+}
+
+/* CARD */
+.tp-card {
+  width: 320px;
+  height: 260px;
+  background: white;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.tp-card:hover {
+  transform: translateY(-4px);
+}
+
+.tp-card.active {
+  border-color: #2563eb;
+}
+
+/* PREVIEW WINDOW */
+.tp-preview-box {
+  height: 200px;
+  background: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* TOP se CENTER kiya */
+  overflow: hidden;
+}
+
+
+/* TITLE */
+.tp-card h4 {
+  margin: 10px 0 12px;
+}
+
+/* LIVE PREVIEW PANEL */
+.tp-live-preview {
+  width: 320px;
+  height: 520px;
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tp-live-preview h3 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.tp-preview-container {
+  flex: 1;
+  min-height: 0;
+}
+
+
+
+/* BUTTON */
+.tp-bottom {
+  margin-top: 30px;
+}
+
+.tp-continue-btn {
+  padding: 10px 28px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* preview container */
+.preview-outer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #eef2f7;
+  border-radius: 10px;
+  position: relative;
+}
+
+.preview-inner {
+  width: 800px;
+  min-height: 1100px;
+  pointer-events: none;
+}
